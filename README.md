@@ -1,49 +1,26 @@
-# MCM PRACTICUM
+## Human Stress Prediction Using Activity Data
 
-This is a template for MCM practicums.  Please read these instructions carefully.
+- A comparative analysis of state of the art machine learning methods with AutoML for forecasting diverse time series
 
-This file is written in
-[markdown](https://guides.github.com/features/mastering-markdown/).  Markdown
-is a suitable format for documents stored in git repositories.
+## Description
 
-## Instructions
+The primary goal of the study is to contribute to stress prediction using activity data, enabling early intervention and adjustments in daily routines to mitigate stress effectively.
+We conducted a comparative analysis of various machine learning algorithms, including LSTM, Bi-LSTM, Decision Tree, and SVM for Human Activity Recognition and stress prediction. 
 
-You *must* do the following:
-
-1 - Fork this repo.
-
-2 - There is no need to rename your fork but if you wish to do so please use
-     the format:
-
-     2024-mcm-username
-
-replacing `username` with your School of Computing login name.
-
-For example, if Stephen Blott were to be doing an MCM practicum, he would rename
-his repo as:
-
-     2024-mcm-sblott
+The objective is to address the following research question:
+* RQ1. Can the accuracy of stress prediction be enhanced by incorporating activity duration, activity frequency, or both for users?
+* RQ2. Can the accuracy of stress prediction be improved by utilizing data collected closer to the time when the ground truth was captured, as opposed to using data from the entire day?
 
 
-You should also update the *Project description*.
+## Authors
 
-3 - This directory has two important sub-directories.
+| Id   |      Name      |  Email id |
+|----------|:-------------:|:------:|
+| 23268158 |   Namratha Renjal     | namratha.renjal2@mail.dcu.ie |
+| 23260426 |    Vaishnavi Manjunatha   |   vaishnavi.manjunatha2@mail.dcu.ie |
 
-- All of your source code should be placed in the `src` sub-directory.
+## Supervisor
 
-- All of your documentation should be placed in the `docs` sub-directory.
-
-4 - There is further important documentation in the `docs` directory.  Read that next.
-
-When you are have followed all of these instructions and are sure that you
-understand what is expected, you may replace the contents of this file with a
-brief description of your project (two or three paragraphs).
-
-## Additional Resources
-
-- Git [cheat sheet](https://gitlab.computing.dcu.ie/sblott/local-gitlab-documentation/blob/master/cheat-sheet.md)
-- Gitlab [CI environment](https://gitlab.computing.dcu.ie/sblott/docker-ci-environment) and it's [available software](https://gitlab.computing.dcu.ie/sblott/docker-ci-environment/blob/master/Dockerfile)
-- Example projects with CI configured:
-   * [Python](https://gitlab.computing.dcu.ie/sblott/test-project-python)
-   * [Java](https://gitlab.computing.dcu.ie/sblott/test-project-java)
-   * [MySql](https://gitlab.computing.dcu.ie/sblott/test-project-mysql)
+|    Name      |  Email id |
+|----------|:-------------:|
+|   Hyowon Lee | hyowon.lee@dcu.ie  |
